@@ -67,6 +67,7 @@ orm_delvar(ORM:id, const columnname[]);
 orm_setkey(ORM:id, const columnname[]);
 ```
 
+# Exemplo de uso
 ```pwn
 // Includes utilizadas nesse exemplo
 #include	<a_samp>
