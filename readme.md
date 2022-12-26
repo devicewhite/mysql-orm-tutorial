@@ -98,7 +98,7 @@ public OnGameModeInit()
 public OnPlayerConnect(playerid)
 {
 	// Criar uma instancia da Dados pro jogador 
-	Dados[playerid][pDados[playerid][pOrmId]] = orm_create("Dados");
+	Dados[playerid][pOrmId] = orm_create("Dados");
 
 	// Conectar as variaveis com as colunas da tabela
 	orm_addvar_int(Dados[playerid][pOrmId], Dados[playerid][pId], "Id");
